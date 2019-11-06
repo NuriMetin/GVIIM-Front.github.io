@@ -19,64 +19,85 @@
 <body>
     <header id="navbar">
         <div class="main-header">
-            <div class="row header-style d-flex">
-                <div class="site-logo col-md-3 ">
+            <nav class="navbar navbar-expand-sm  navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-brand site-logo col-md-3 ">
                     <img src="images/53004385gviimlogo.png" alt="site logo">
                 </div>
-                <span id="flip" class="flip" style="color: blanchedalmond;"><i class="fas fa-bars"></i></span>
-                <div class="col-md-9 navigation-head">
-                    <div class="row navigation" id="panel">
-                        <ul class="d-flex my-nav" >
-                            <li class="nav">
-                                <a href="#">AzTU</a>
-                                <ul>
-                                    <li><a href="#">Universitetin tarixi</a></li>
-                                    <li><a href="#">Rektor</a></li>
-                                    <li><a href="#">Prorektor</a></li>
-                                    <li><a href="#">Fakültələr</a></li>
-                                </ul>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item item-style" tabindex="-1" href="#">
+                                AzTU
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" tabindex="-1" href="#">Universitetin tarixi</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item" href="#">Rektor</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Prorektor</a></li>
+                                <li><a class="dropdown-item" href="#">Fakültələr</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item item-style" tabindex="-1" href="#">
+                                GVİİM
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" tabindex="-1" href="#">Haqqımızda</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item" href="#">Rəhbərlik</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Struktur</a></li>
+                                <li><a class="dropdown-item" href="#">Nizamnamə</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown dmenu">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item item-style" tabindex="-1" href="#">
+                                Media
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" tabindex="-1" href="#">Media</a></li>
+                                <li class="dropdown-submenu multiple-dropdown-submenu">
+                                    <a class="dropdown-item" href="#">
+                                        Xəbərlər
+                                    </a>
+                                    <ul class="dropdown-menu multiple-dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Tədbirlər</a></li>
+                                        <li><a class="dropdown-item" href="#">Layihələr</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Elanlar</a></li>
+                                <li><a class="dropdown-item" href="#">Qalareya</a></li>
+                            </ul>
+                        </li>
+
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item item-style" tabindex="-1" href="#">
+                                Bizimlə <span> Əlaqə</span>
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                                <a class="dropdown-item item-style" tabindex="-1" href="#">
+                                   Qeydiyyat
+                                </a>
                             </li>
-                            <li class="nav">
-                                <a href="#">GVİİM</a>
-                                <ul>
-                                    <li><a href="#">Haqqımızda</a></li>
-                                    <li><a href="#">Rəhbərlik</a></li>
-                                    <li><a href="#">Struktur</a></li>
-                                    <li><a href="#">Nizamnamə</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav">
-                                <a href="#">Media</a>
-                                <ul>
-                                    <li>
-                                        <a href="#">Xəbərlər</a>
-                                        <ul>
-                                            <li><a href="#">Elanlar</a></li>
-                                            <li><a href="#">Tədbirlər</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Layihələr</a></li>
-                                    <li><a href="#">Qalareya</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav contact">
-                                <a href="#" class="d-flex">Bizimlə<span>Əlaqə</span></a>
-                            </li>
-                            <li class="nav">
-                                <a href="#">Qeydiyyat</a>
-                            </li>
-                            <li class="nav nav-searh"><i class="fa fa-search"></i></li>
-                            <li class="nav nav-combo">
-                                <select class="combobox">
-                                    <option class="cmbx-option">Az</option>
-                                    <option class="cmbx-option">Eng</option>
-                                    <option class="cmbx-option">Ru</option>
-                                </select>
-                            </li>
-                        </ul>
-                    </div>
+                        <li class="nav-item nav nav-searh"><i class="fa fa-search"></i></li>
+                        <li class="nav-item">
+                            <select class=" combobox form-control">
+                                <option value="" class="form-control cmbx-option">Az</option>
+                                <option value="" class="form-control cmbx-option">Eng</option>
+                                <option value="" class="form-control cmbx-option">Ru</option>
+                            </select>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
 
@@ -99,7 +120,7 @@
             </div>
         </div>
     </div>
- 
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

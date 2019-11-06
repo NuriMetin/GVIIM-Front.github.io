@@ -50,55 +50,9 @@ header {
 
 .site-logo img {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
-.navigation ul {
-    margin-left: 0;
-}
-
-.nav {
-    cursor: default;
-    font-size: .9rem;
-    font-weight: 700;
-    color: #3F3F3F;
-}
-
-.nav a {
-    font-weight: 700;
-    color: #3F3F3F;
-    font-size: .9rem;
-    padding: 29px 20px;
-    display: inline-block;
-}
-
-.nav a:hover {
-    background: #333b48;
-    color: white;
-}
-
-.contact a span {
-    padding-left: 7%;
-}
-
-.nav-combo {
-    padding: 0 !important;
-    margin: 27px 0 0 7%;
-}
-
-.nav-searh {
-    margin-left: 5%;
-}
-
-.fa-search {
-    padding-top: 32px;
-    font-size: 1.1rem;
-    cursor: pointer;
-}
-.fa-bars {
-    font-size: 2.5rem;
-    color: #333B48;
-}
 .combobox {
     height: 35px;
     font-weight: 600;
@@ -120,6 +74,34 @@ header {
     display: none;
 }
 
+.navbar {
+    background: transparent !important;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 100%;
+    left: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.multiple-dropdown-submenu>.multiple-dropdown-menu{
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+.item-style{
+    font-size: .9rem;
+    font-weight: 600;
+}
 /*header ended*/
 
 /*main-container started*/
@@ -128,16 +110,17 @@ header {
     width: 100%;
 }
 
+
 /*main-container ended*/
 
 @media (max-width: 575.98px) {
     .my-nav {
         width: 100%;
     }
-    .nav{
+    .nav {
         display: block;
     }
-    .nav a{
+    .nav a {
         width: 100%;
     }
     .navigation-head {
@@ -157,7 +140,7 @@ header {
         text-align: right;
         display: inline-block;
         width: 25%;
-        padding-top: 20px;
+        padding-top: 15px;
     }
 }
 
@@ -179,9 +162,8 @@ header {
         text-align: right;
         display: inline-block;
         width: 25%;
-        padding-top: 20px;
+        padding-top: 15px;
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -203,7 +185,7 @@ header {
         display: inline-block;
         width: 25%;
         margin-left: 50%;
-        padding-top: 20px;
+        padding-top: 15px;
     }
 }
 
