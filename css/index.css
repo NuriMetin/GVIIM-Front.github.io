@@ -156,64 +156,74 @@ hr{
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .my-nav {
+    header{
         width: 100%;
     }
-    .nav {
-        display: block;
-    }
-    .nav a {
-        width: 100%;
-    }
-    .navigation-head {
-        width: 100%;
-    }
-    .navigation {
-        display: none;
+    .main-header{
+        text-align: center;
     }
     .site-logo {
         text-align: left;
-        width: 75%;
+        width: 70%;
     }
     .site-logo img {
-        width: 85%;
+        width: 100%;
     }
-    .flip {
-        text-align: right;
-        display: inline-block;
-        width: 25%;
-        padding-top: 15px;
+    ul{
+        display: none !important;
+    }
+    .toggler-style{
+        width: 20%;
+        display: block;
+    }
+    .toggler-style span{
+        display: block;
+    }
+    .collapse, navbar-collapse, navbar-nav{
+        display: none;
+        width: 100%;
+        background: #333B48;
+    }
+    .item-style{
+        color: #ffffff;
+        width: 100%;
+        display: block;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .my-nav {
+    header{
         width: 100%;
     }
-    .nav {
-        display: block;
-    }
-    .nav a {
-        width: 100%;
-    }
-    .navigation-head {
-        width: 100%;
-    }
-    .navigation {
-        display: none;
+    .main-header{
+        text-align: center;
     }
     .site-logo {
         text-align: left;
-        width: 75%;
+        width: 70%;
     }
     .site-logo img {
-        width: 85%;
+        width: 100%;
     }
-    .flip {
-        text-align: right;
-        display: inline-block;
-        width: 25%;
-        padding-top: 15px;
+    ul{
+        display: none !important;
+    }
+    .toggler-style{
+        width: 20%;
+        display: block;
+    }
+    .toggler-style span{
+        display: block;
+    }
+    .collapse, navbar-collapse, navbar-nav{
+        display: none;
+        width: 100%;
+        background: #333B48;
+    }
+    .item-style{
+        color: #ffffff;
+        width: 100%;
+        display: block;
     }
 }
 
