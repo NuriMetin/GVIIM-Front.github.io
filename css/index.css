@@ -138,13 +138,13 @@ hr{
     }
     .site-logo {
         text-align: left;
-        width: 75%;
+        width: 70%;
     }
     .site-logo img {
-        width: 85%;
+        width: 100%;
     }
     .navbar-toggler{
-        width: 15%;
+        width: 20%;
     }
     .collapse-res{
         width: 100%;
