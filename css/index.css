@@ -150,6 +150,9 @@ hr{
         width: 100%;
         background: #333B48;
     }
+    .item-style{
+        color: #ffffff;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
