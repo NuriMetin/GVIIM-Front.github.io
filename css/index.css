@@ -143,6 +143,7 @@ hr {
 
 footer {
     background: #040919;
+    padding-bottom: 50px;
 }
 .footer-left{
     text-align: center;
@@ -168,8 +169,10 @@ footer {
     width: 9em;
 }
 .footer-center{
-    text-align: left;
     padding-top: 70px;
+}
+.footer-center-top{
+    text-align: left;
 }
 .footer-center h4, .footer-center p, .footer-center span{
     color: white;
@@ -190,6 +193,23 @@ iframe{
     left: 5%;
     width: 91%;
     height: 67%;
+}
+
+.social-links{
+    padding-top: 20px;
+}
+.social-links a{
+    color: white;
+    background: #333333;
+    padding: 12px;
+    border-radius: 50%;
+}
+.facebook-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.social-links a:hover{
+    background: #024883;
 }
 /*Footer ended*/
 
