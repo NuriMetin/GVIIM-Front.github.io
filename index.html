@@ -8,8 +8,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
 
     <!--My css file-->
@@ -17,100 +17,80 @@
 </head>
 
 <body>
+    <!-- ***** Header Area Start ***** -->
     <header id="navbar">
-        <div class="main-header">
-            <nav class="navbar navbar-expand-sm  navbar-light bg-light">  
-                <div class="navbar-brand site-logo col-md-3 ">
-                    <img src="images/53004385gviimlogo.png" alt="site logo">
-                </div>
-                <button class="navbar-toggler toggler-style" type="button" style="border: none;" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse collapse-res navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav mr-auto mt-2 col-xs-12  mt-lg-0">
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item item-style" tabindex="-1" href="#">
-                                AzTU
-                                <i class="fas fa-caret-down"></i>
+        <div class="main-header d-flex">
+            <div class="navigation-head">
+                <nav id="menu">
+                    <label for="tm" id="toggle-menu">
+                        <div class="site-logo">
+                            <img src="images/53004385gviimlogo.png" alt="site logo">
+                        </div> <span><i class="fas fa-bars"></i></span>
+                    </label>
+                    <input type="checkbox" id="tm">
+                    <ul class="main-menu clearfix">
+                        <li><a href="#">AzTU
+                                <span class="drop-icon"><i class="fas fa-caret-down"></i></span>
+                                <label title="Toggle Drop-down" class="drop-icon" for="sm1"><i class="fas fa-caret-down"></i></label>
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" tabindex="-1" href="#">Universitetin tarixi</a></li>
-                                <hr>
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item" href="#">Rektor</a>
-                                    <hr>
-                                </li>
-                                <li><a class="dropdown-item" href="#">Prorektor</a></li>
-                                <hr>
-                                <li><a class="dropdown-item" href="#">Fakültələr</a></li>
+                            <input type="checkbox" id="sm1">
+                            <ul class="sub-menu">
+                                <li><a href="#">Universitetin tarixi</a></li>
+                                <li><a href="#">Rektor</a></li>
+                                <li><a href="#">Prorektor</a></li>
+                                <li><a href="#">Fakültələr</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item item-style" tabindex="-1" href="#">
-                                GVİİM
-                                <i class="fas fa-caret-down"></i>
+                        <li><a href="#">GVİİM
+                                <span class="drop-icon"><i class="fas fa-caret-down"></i></span>
+                                <label title="Toggle Drop-down" class="drop-icon" for="sm2"><i class="fas fa-caret-down"></i></label>
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" tabindex="-1" href="#">Haqqımızda</a></li>
-                                <hr>
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item" href="#">Rəhbərlik</a>
-                                    <hr>
-                                </li>
-                                <li><a class="dropdown-item" href="#">Struktur</a></li>
-                                <hr>
-                                <li><a class="dropdown-item" href="#">Nizamnamə</a></li>
+                            <input type="checkbox" id="sm2">
+                            <ul class="sub-menu">
+                                <li><a href="#">Haqqımızda</a></li>
+                                <li><a href="#">Rəhbərlik</a></li>
+                                <li><a href="#">Struktur</a></li>
+                                <li><a href="#">Nizamnamə</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown dmenu">
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item item-style" tabindex="-1" href="#">
-                                Media
-                                <i class="fas fa-caret-down"></i>
+                        <li><a href="#">Media
+                                <span class="drop-icon"><i class="fas fa-caret-down"></i></span>
+                                <label title="Toggle Drop-down" class="drop-icon" for="sm3"><i class="fas fa-caret-down"></i></label>
                             </a>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-submenu multiple-dropdown-submenu">
-                                    <a class="dropdown-item" href="#">
-                                        Xəbərlər
-                                        <i class="fas fa-caret-right"></i>
+                            <input type="checkbox" id="sm3">
+                            <ul class="sub-menu">
+                                <li><a href="#">Xəbərlər
+                                        <span class="drop-icon"><i class="fas fa-caret-down"></i></span>
+                                        <label title="Toggle Drop-down" class="drop-icon" for="sm4"><i class="fas fa-caret-down"></i></label>
                                     </a>
-                                    <ul class="dropdown-menu multiple-dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Tədbirlər</a></li>
-                                        <hr>
-                                        <li><a class="dropdown-item" href="#">Layihələr</a></li>
+                                    <input type="checkbox" id="sm4">
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Layihələr</a></li>
+                                        <li><a href="#">Tədbirlər</a></li>
                                     </ul>
                                 </li>
-                                <hr>
-                                <li><a class="dropdown-item" href="#">Elanlar</a></li>
-                                <hr>
-                                <li><a class="dropdown-item" href="#">Qalareya</a></li>
+                                <li><a href="#">Elan</a></li>
+                                <li><a href="#">Qalereya</a></li>
                             </ul>
                         </li>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item item-style" tabindex="-1" href="#">
-                                Bizimlə <span> Əlaqə</span>
-                            </a>
-                        </li>
-                        <li class="dropdown-submenu">
-                                <a class="dropdown-item item-style" tabindex="-1" href="#">
-                                   Qeydiyyat
-                                </a>
-                            </li>
-                        <li class="nav-search"><i class="fa fa-search"></i></li>
-                        <li class="nav-combobox">
-                            <select class="combobox">
-                                <option value="" class="form-control cmbx-option">Az</option>
-                                <option value="" class="form-control cmbx-option">Eng</option>
-                                <option value="" class="form-control cmbx-option">Ru</option>
-                            </select>
+                        <li><a href="#">Bizimlə əlaqə</a></li>
+                        <li><a href="#">Qeydiyyat</a></li>
+                        <li><span class="nav-search"><i class="fa fa-search"></i></span></li>
+                        <li>
+                            <span class="nav-combobox">
+                                <select class="combobox">
+                                    <option value="" class="form-control cmbx-option">Az</option>
+                                    <option value="" class="form-control cmbx-option">Eng</option>
+                                    <option value="" class="form-control cmbx-option">Ru</option>
+                                </select>
+                            </span>
                         </li>
                     </ul>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
     </header>
+    <!-- ***** Header Area End ***** -->
 
     <div class="main-container">
         <div class="container-fluid">
@@ -132,16 +112,13 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
