@@ -238,7 +238,7 @@ iframe {
         border: none;
         background: transparent;
     }
-    .fas {
+    .fa-bars {
         font-size: 1.3rem;
         color: black;
     }
@@ -288,6 +288,9 @@ iframe {
     }
     .menu-element:hover .element-title {
         color: #ffffff;
+    }
+    .fa-caret-right{
+        display: none;
     }
     /*Footer*/
     .footer {
