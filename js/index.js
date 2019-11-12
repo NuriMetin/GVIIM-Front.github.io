@@ -15,6 +15,7 @@ $(document).ready(function () {
         $("#aztu_element").css("display", "none");
         $("#gviim_element").css("display", "none");
         $("#media_element").css("display", "none");
+        $("#news_element").css("display", "none");
         $("#panel").slideToggle("fast");
     });
 });
@@ -24,16 +25,19 @@ $(document).ready(function () {
         $("#aztu").click(function () {
             $("#gviim_element").css("display", "none");
             $("#media_element").css("display", "none");
+            $("#news_element").css("display", "none");
             $("#aztu_element").slideToggle("fast");
         });
         $("#gviim").click(function () {
             $("#media_element").css("display", "none");
             $("#aztu_element").css("display", "none");
+            $("#news_element").css("display", "none");
             $("#gviim_element").slideToggle("fast");
         });
         $("#media").click(function () {
             $("#gviim_element").css("display", "none");
             $("#aztu_element").css("display", "none");
+            $("#news_element").css("display", "none");
             $("#media_element").slideToggle("fast");
         });
         $("#news").click(function(){

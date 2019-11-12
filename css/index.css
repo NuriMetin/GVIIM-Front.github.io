@@ -99,7 +99,7 @@ hr {
 }
 
 .menu-sub-element li {
-    margin: 0 .8rem;
+    margin: .5rem .8rem;
 }
 
 .sub-element-title {
@@ -303,6 +303,9 @@ iframe {
     .fa-caret-right{
         display: none;
     }
+    .sub-element-title:hover{
+        color: #ffffff;
+    }
     /*Footer*/
     .footer {
         width: 80% !important;
@@ -314,25 +317,26 @@ iframe {
         display: none;
     }
     .main-header {
+        width: 95%;
         padding-top: 1rem;
     }
     .site-logo {
-        width: 85%;
+        width: 55%;
     }
     .site-logo img {
-        width: 55%;
+        width: 75%;
     }
     .site-logo button {
         width: 25%;
         display: inline-block;
-        margin-top: .7rem;
+        margin-top: .5rem;
     }
     .btn-flip {
         float: right;
         border: none;
         background: transparent;
     }
-    .fas {
+    .fa-bars {
         font-size: 1.3rem;
         color: black;
     }
@@ -349,6 +353,7 @@ iframe {
         width: 100%;
         padding: 8px 0;
         text-align: center !important;
+        margin-left: -1.2rem;
     }
     .element-title, .fa {
         color: #ffffff;
@@ -358,12 +363,30 @@ iframe {
     }
     .menu-sub-element {
         position: relative;
+        text-align: center !important;
+        font-size: .9rem;
     }
+    .sub-element-title{
+        margin-left: -2.2rem;
+    }
+   
     .child-element {
         position: relative;
+        width: 100%;
+        padding: 0 !important;
+        background: #333B48;
+        top: 0;
+        left: 0;
+        margin-left: -.9rem;
     }
+    .child-element li{
+        width: 100%;
+        display: block;
+    }
+    
     .nav-combobox {
         width: 20%;
+        margin-left: .3rem;
     }
     .menu-sub-element {
         margin-top: .5rem;
@@ -372,10 +395,13 @@ iframe {
     .sub-element-title {
         color: #ffffff;
     }
-    .child-element {
-        position: relative;
-    }
     .menu-element:hover .element-title {
+        color: #ffffff;
+    }
+    .fa-caret-right{
+        display: none;
+    }
+    .sub-element-title:hover{
         color: #ffffff;
     }
     /*Footer*/
@@ -389,25 +415,26 @@ iframe {
         display: none;
     }
     .main-header {
-        padding-top: 1rem;
+        padding-top: .9rem;
+        width: 95%;
     }
     .site-logo {
-        width: 85%;
+        width: 50%;
     }
     .site-logo img {
-        width: 45%;
+        width: 75%;
     }
     .site-logo button {
         width: 25%;
         display: inline-block;
-        margin-top: .7rem;
+        margin-top: .5rem;
     }
     .btn-flip {
         float: right;
         border: none;
         background: transparent;
     }
-    .fas {
+    .fa-bars {
         font-size: 1.3rem;
         color: black;
     }
@@ -424,6 +451,7 @@ iframe {
         width: 100%;
         padding: 8px 0;
         text-align: center !important;
+        margin-left: -1.2rem;
     }
     .element-title, .fa {
         color: #ffffff;
@@ -433,12 +461,30 @@ iframe {
     }
     .menu-sub-element {
         position: relative;
+        text-align: center !important;
+        font-size: .9rem;
     }
+    .sub-element-title{
+        margin-left: -2.2rem;
+    }
+   
     .child-element {
         position: relative;
+        width: 100%;
+        padding: 0 !important;
+        background: #333B48;
+        top: 0;
+        left: 0;
+        margin-left: -.9rem;
     }
+    .child-element li{
+        width: 100%;
+        display: block;
+    }
+    
     .nav-combobox {
         width: 20%;
+        margin-left: .3rem;
     }
     .menu-sub-element {
         margin-top: .5rem;
@@ -449,6 +495,16 @@ iframe {
     }
     .menu-element:hover .element-title {
         color: #ffffff;
+    }
+    .fa-caret-right{
+        display: none;
+    }
+    .sub-element-title:hover{
+        color: #ffffff;
+    }
+    /*Footer*/
+    .footer {
+        width: 80% !important;
     }
     /*Footer*/
 }
