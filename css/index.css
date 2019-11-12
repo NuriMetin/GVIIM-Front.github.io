@@ -255,6 +255,7 @@ iframe {
         width: 100%;
         padding: 8px 0;
         text-align: center !important;
+        margin-left: -1.2rem;
     }
     .element-title, .fa {
         color: #ffffff;
@@ -276,6 +277,7 @@ iframe {
     }
     .nav-combobox {
         width: 20%;
+        margin-left: .3rem;
     }
     .menu-sub-element {
         margin-top: .5rem;
