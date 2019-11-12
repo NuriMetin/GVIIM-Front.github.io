@@ -19,97 +19,81 @@
 <body>
     <header id="navbar">
         <div class="main-header">
-            <nav class="navbar navbar-expand-sm  navbar-light bg-light">
-                <div class="navbar-brand site-logo col-md-3 ">
-                    <img src="images/53004385gviimlogo.png" alt="site logo">
-                </div>
-                <button class="navbar-toggler toggler-style" type="button" style="border: none;" data-toggle="collapse"
-                    data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse collapse-res navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav mr-auto mt-2 col-xs-12  mt-lg-0">
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item item-style" tabindex="-1" href="#">
-                                AzTU
-                                <i class="fas fa-caret-down"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" tabindex="-1" href="#">Universitetin tarixi</a></li>
-                                <hr>
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item" href="#">Rektor</a>
-                                    <hr>
-                                </li>
-                                <li><a class="dropdown-item" href="#">Prorektor</a></li>
-                                <hr>
-                                <li><a class="dropdown-item" href="#">Fakültələr</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item item-style" tabindex="-1" href="#">
-                                GVİİM
-                                <i class="fas fa-caret-down"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" tabindex="-1" href="#">Haqqımızda</a></li>
-                                <hr>
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item" href="#">Rəhbərlik</a>
-                                    <hr>
-                                </li>
-                                <li><a class="dropdown-item" href="#">Struktur</a></li>
-                                <hr>
-                                <li><a class="dropdown-item" href="#">Nizamnamə</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown dmenu">
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item item-style" tabindex="-1" href="#">
-                                Media
-                                <i class="fas fa-caret-down"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-submenu multiple-dropdown-submenu">
-                                    <a class="dropdown-item" href="#">
-                                        Xəbərlər
-                                        <i class="fas fa-caret-right"></i>
-                                    </a>
-                                    <ul class="dropdown-menu multiple-dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Tədbirlər</a></li>
-                                        <hr>
-                                        <li><a class="dropdown-item" href="#">Layihələr</a></li>
-                                    </ul>
-                                </li>
-                                <hr>
-                                <li><a class="dropdown-item" href="#">Elanlar</a></li>
-                                <hr>
-                                <li><a class="dropdown-item" href="#">Qalareya</a></li>
-                            </ul>
-                        </li>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item item-style" tabindex="-1" href="#">
-                                Bizimlə <span> Əlaqə</span>
-                            </a>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item item-style" tabindex="-1" href="#">
-                                Qeydiyyat
-                            </a>
-                        </li>
-                        <li class="nav-search"><i class="fa fa-search"></i></li>
-                        <li class="nav-combobox">
-                            <select class="combobox">
-                                <option value="" class="form-control cmbx-option">Az</option>
-                                <option value="" class="form-control cmbx-option">Eng</option>
-                                <option value="" class="form-control cmbx-option">Ru</option>
-                            </select>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <div class="site-logo">
+                <img src="images/53004385gviimlogo.png" alt="site logo">
+                <button class="btn-flip" id="flip"><i class="fas fa-bars"></i></button>
+            </div>
+            <div class="site-menu clearfix">
+                <ul class="menu" id="panel">
+                    <li class="menu-element">
+                        <a class="element-title" id="aztu" href="#">
+                            AzTU
+                        </a>
+                        <ul class="menu-sub-element" id="aztu_element">
+                            <li><a class="sub-element-title" href="#">Universitetin tarixi</a></li>
+                            <hr>
+                            <li><a class="sub-element-title" href="#">Rektor</a></li>
+                            <hr>
+                            <li><a class="sub-element-title" href="#">Prorektor</a></li>
+                            <hr>
+                            <li><a class="sub-element-title" href="#">Fakültələr</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-element">
+                        <a class="element-title" id="gviim" href="#">
+                            GVİİM
+                        </a>
+                        <ul class="menu-sub-element" id="gviim_element">
+                            <li><a class="sub-element-title" href="#">Haqqımızda</a></li>
+                            <hr>
+                            <li><a class="sub-element-title" href="#">Rəhbərlik</a> </li>
+                            <hr>
+                            <li><a class="sub-element-title" href="#">Struktur</a></li>
+                            <hr>
+                            <li><a class="sub-element-title" href="#">Nizamnamə</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-element">
+                        <a class="element-title" id="media" href="#">
+                            Media
+                        </a>
+                        <ul class="menu-sub-element" id="media_element">
+                            <li class="sub-element-element">
+                                <a class="sub-element-title" id="news" href="#">
+                                    Xəbərlər
+                                    <i class="fas fa-caret-right"></i>
+                                </a>
+                                <ul class="child-element" id="news_element">
+                                    <li><a class="sub-element-title" href="#">Tədbirlər</a></li>
+                                    <li><a class="sub-element-title" href="#">Layihələr</a></li>
+                                </ul>
+                            </li>
+                            <hr>
+                            <li><a class="sub-element-title" href="#">Elanlar</a></li>
+                            <hr>
+                            <li><a class="sub-element-title" href="#">Qalareya</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-element">
+                        <a class="element-title contact" href="#">
+                            Bizimlə Əlaqə
+                        </a>
+                    </li>
+                    <li class="menu-element">
+                        <a class="element-title" href="#">
+                            Qeydiyyat
+                        </a>
+                    </li>
+                    <li class="nav-search menu-element"><i class="fa fa-search"></i></li>
+                    <li class="nav-combobox menu-element clearfix">
+                        <select class="combobox menu-element">
+                            <option value="" class="form-control cmbx-option">Az</option>
+                            <option value="" class="form-control cmbx-option">Eng</option>
+                            <option value="" class="form-control cmbx-option">Ru</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -158,8 +142,8 @@
                     <div class="social-links">
                         <a href="https://twitter.com/AztuGviim" class="twitter" alt="Gviim Twitter adresi" title="Gviim Twitter adresi"><i
                                 class="fab fa-twitter"></i></a>
-                        <a class="facebook-link" href="https://www.facebook.com/aztugviim/" alt="Gviim Facebook adresi" title="Gviim Facebook adresi"
-                            target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="facebook-link" href="https://www.facebook.com/aztugviim/" alt="Gviim Facebook adresi"
+                            title="Gviim Facebook adresi" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.instagram.com/aztu_gviim/" target="_blank" alt="Gənclərin Virtual İdarəetmə və İnkişaf Mərkəzinin instagram adresi"
                             title="Gənclərin Virtual İdarəetmə və İnkişaf Mərkəzinin instagram adresi" class="instagram"><i
                                 class="fab fa-instagram"></i></a>
