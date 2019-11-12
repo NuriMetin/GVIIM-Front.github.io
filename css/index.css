@@ -264,7 +264,13 @@ iframe {
     }
     .menu-sub-element {
         position: relative;
+        text-align: center !important;
+        font-size: .8rem;
     }
+    .sub-element-title{
+        margin-left: -2.2rem;
+    }
+   
     .child-element {
         position: relative;
     }
