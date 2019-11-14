@@ -22,14 +22,23 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     if ($(window).width() <= 991) {
+        $("#search").click(function () {
+            $("#gviim_element").css("display", "none");
+            $("#media_element").css("display", "none");
+            $("#news_element").css("display", "none");
+            $("#aztu_element").css("display", "none");
+            $("#search_element").slideToggle("fast");
+        });
         $("#aztu").click(function () {
             $("#gviim_element").css("display", "none");
+            $("#search_element").css("display", "none");
             $("#media_element").css("display", "none");
             $("#news_element").css("display", "none");
             $("#aztu_element").slideToggle("fast");
         });
         $("#gviim").click(function () {
             $("#media_element").css("display", "none");
+            $("#search_element").css("display", "none");
             $("#aztu_element").css("display", "none");
             $("#news_element").css("display", "none");
             $("#gviim_element").slideToggle("fast");
@@ -38,6 +47,7 @@ $(document).ready(function () {
             $("#gviim_element").css("display", "none");
             $("#aztu_element").css("display", "none");
             $("#news_element").css("display", "none");
+            $("#search_element").css("display", "none");
             $("#media_element").slideToggle("fast");
         });
         $("#news").click(function(){
