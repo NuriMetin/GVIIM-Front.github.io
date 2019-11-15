@@ -27,6 +27,8 @@ $(document).ready(function () {
             $("#media_element").css("display", "none");
             $("#news_element").css("display", "none");
             $("#aztu_element").css("display", "none");
+            $("#search").css("display", "block");
+            $("#search").css("padding", "0px");
             $("#search_element").slideToggle("fast");
         });
         $("#aztu").click(function () {
