@@ -561,3 +561,8 @@ iframe {
         padding:.22rem 3rem 1.4px .5rem;
     }
 }
+@media (min-width: 992px) and (max-width: 1037px) {
+    .menu-element {
+        margin: 0 .1rem 0 0 !important;
+    }
+}
