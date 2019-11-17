@@ -75,6 +75,9 @@ hr {
 
 .menu-sub-element {
     border-top: #333B48 .3rem solid;
+    border-left: rgba(0,0,0,.1) .01rem solid;
+    border-right: rgba(0,0,0,.1) .01rem solid;
+    border-bottom: rgba(0,0,0,.1) .01rem solid;
     transform: translate3d(0, -5px, 0);
     background: white;
     display: none;
@@ -115,8 +118,8 @@ hr {
     display: none;
     position: absolute;
     left: 100%;
-    top: -5px;
-    border-left: #333B48 .3rem solid;
+    top: -4px;
+    border: rgba(0,0,0,.1) .01rem solid;
     background: white;
     padding-left: 0 !important;
 }
@@ -146,6 +149,9 @@ hr {
     color: #ffffff;
     border: none;
     margin-left: -3%;
+}
+.news-symb{
+    display: none;
 }
 /*header ended*/
 
