@@ -118,7 +118,7 @@ hr {
     display: none;
     position: absolute;
     left: 100%;
-    top: -4px;
+    top: -1px;
     border: rgba(0,0,0,.1) .01rem solid;
     background: white;
     padding-left: 0 !important;
@@ -536,8 +536,9 @@ iframe {
     }
     /*Footer*/
     .footer {
-        width: 80% !important;
+        width: 98% !important;
     }
+
     /*Footer*/
 }
 
