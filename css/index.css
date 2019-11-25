@@ -414,6 +414,10 @@ iframe {
         left: 0;
         margin-left: -.42rem;
     }
+    .fa-caret-down{
+        display: inline-block;
+        color: white;
+    }
     .child-element li {
         width: 100%;
         display: block;
@@ -566,6 +570,9 @@ iframe {
     }
     .btn-search{
         padding:.22rem 3rem 1.4px .5rem;
+    }
+    .fa-caret-down{
+        display: none;
     }
 }
 @media (min-width: 992px) and (max-width: 1037px) {
